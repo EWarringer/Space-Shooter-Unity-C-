@@ -13,7 +13,6 @@ public class PlayerController : MonoBehaviour {
 	public float speed;
 	public float tilt;
 	public Boundary boundary;
-
 	public GameObject shot;
 	public Transform shotSpawn;
 	public float fireRate;
@@ -26,7 +25,6 @@ public class PlayerController : MonoBehaviour {
 			Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
 		}
 	}
-
 
 	void Start() {
 		rb = GetComponent<Rigidbody>();
