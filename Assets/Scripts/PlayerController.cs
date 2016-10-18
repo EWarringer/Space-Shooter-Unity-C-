@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour {
 
 	public float speed;
 	public float tilt;
+	/*call boundary class*/
 	public Boundary boundary;
 	public GameObject shot;
 	public Transform shotSpawn;
